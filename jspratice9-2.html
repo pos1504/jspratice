@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+//(1)
+      function checkAge(age) {
+  return (age > 18) ? true : confirm('보호자의 동의를 받으셨나요?');
+}
+//'?'
+function checkAge(age) {
+  return (age > 18) || confirm('보호자의 동의를 받으셨나요?');
+}
+//'||' 사용
+    </script>
+  </body>
+</html>
