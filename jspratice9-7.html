@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function checkAge(age) {
+	if (age >= 18){
+    	return true;
+    }
+  	else{
+    	return confirm("보호자의 동의를 받으셨나요?");
+    }
+}
+
+
+let age = prompt('나이를 알려주세요',18);
+
+if( checkAge(age) ) {
+	alert('access 성공!');
+	}
+else {
+	alert('접속 차단');
+	}
+    </script>
+  </body>
+</html>
